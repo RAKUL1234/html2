@@ -514,7 +514,7 @@ font-size: 16px;
                     display: unset;
                     width: 500px;
                     position:absolute;
-                    left: 800px;
+                    right: 5vw;
                     top: 290px;
                     }
                     .box-line{
