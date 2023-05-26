@@ -94,13 +94,10 @@ display: inline-block;
 }
 .call-gap{
 display: flex;
-gap:15px;
 }
-.call-gap img{
-    width: 7px;
-}
-.call-size{
+.tele-number{
     display: flex;
+    margin:0 9px;
 }
 .btn-container{
     display: none;
@@ -256,8 +253,6 @@ font-size: 16px;
         margin: 10px;
         padding: 1em;
         justify-content: flex-start; 
-        /* padding: 10px; */
-        box-shadow: 5px 10px red;
     }
 
     .image-right{
