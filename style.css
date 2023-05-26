@@ -44,7 +44,7 @@ padding: 0px 70px;
 .nav-header ul li{
     
 display: inline-block;
-  padding: 135px 10px;
+  padding: 130px 10px;
  list-style-type:none;
 }
 .menu-btn{
@@ -526,10 +526,10 @@ font-size: 16px;
 
         }
         .para-gap{
-            margin-left: 35px;
+            margin-left: 32px;
             }
             .line-gap{
-                margin-left: 6px;
+                margin-left: 5px;
             }
 
             .angle-bar{
@@ -553,11 +553,11 @@ font-size: 16px;
                 }
                 .arrow-bottom{
                     display:flex;
-                    margin-top:32px;
+                    margin-top:40px;
                 }
                 .arrow-top{
                     display: flex;
-                    margin-top: 10px;
+                    margin-top: 19px;
                 }
                 .nav-head{
                     display: contents;
