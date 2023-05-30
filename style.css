@@ -374,7 +374,7 @@ font-size: 16px;
     
     .style-none{
         list-style: none;
-        color:white;
+        color:grey;
         display: grid;
         justify-content: center;
         align-items:center;
@@ -408,7 +408,7 @@ font-size: 16px;
     }
 
     .para-color{
-        color:white;
+        color:grey;
         display: grid;
         justify-content: center;
         align-items: center;
