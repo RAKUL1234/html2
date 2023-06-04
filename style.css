@@ -20,15 +20,24 @@ html,body{
    width:100vw;
 
 } 
-  a:active {
+  a:hover {
     
     color: #d9bd3f;
   }
   a:link {
     text-decoration: none;
+    color:grey;
     
   }
   a:visited {
+    
+    color:white;
+  }
+ a:active{
+    color:rgb(134, 22, 22);
+ }
+   a:visited {
+    
     color:white;
   }
 
@@ -85,6 +94,8 @@ display: inline-block;
 }
 .small-header{
     font-size:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 #size{
     width:70px ;
@@ -95,7 +106,41 @@ display: inline-block;
     justify-content: center;
     align-items: center;
 }
+.bullet-point{
+    position: absolute;
+    color: #d9bd3f;
 
+   font-size: 77px;
+   margin-top: -24px;
+
+}
+.bullet-service{
+    position: absolute;
+    color: #d9bd3f;
+
+   font-size: 77px;
+   margin-top: -32px;
+
+
+}
+.bullet-about{
+    position: absolute;
+    color: #d9bd3f;
+
+   font-size: 73px;
+   margin-top: -23px;
+
+
+}
+.bullet-home{
+    position: absolute;
+    color: #d9bd3f;
+margin-left: -15px;
+   font-size: 40px;
+   margin-top: -21px;
+
+
+}
 
 
 .nav-head{
@@ -111,11 +156,6 @@ display: inline-block;
 .btn-container{
     display: none;
 }
-/* .primary-btn{
-scale: 1; 
-margin-left: 200px;
-
-} */
 .btn-center{
     background-color: #d9bd3f;
     border: none;
@@ -182,6 +222,7 @@ font-size: 16px;
     width: 354px;
     height:100%;
     padding: 20px;
+    margin-left:32px;
 
 }
 .main-content h1{
@@ -344,7 +385,6 @@ font-size: 16px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -28px;
         }
     
     #card-3{
@@ -398,7 +438,15 @@ font-size: 16px;
          padding-top: 27px;
 
 
+         
      }
+     .header-color{
+        color: aliceblue;
+        display: grid;
+        font-size: large;
+        /* place-content: center; */
+    }
+
    
     
     
@@ -418,11 +466,6 @@ font-size: 16px;
         padding: 1em;
         grid-gap: 13px;
     
-    }
-    .header-color{
-        color: aliceblue;
-        display: grid;
-        font-size: large;
     }
     .header-right{
         color: aliceblue;
@@ -464,26 +507,6 @@ font-size: 16px;
     .para-color{
         color:grey;
     }
-    .bullet-color::after{
-        display: grid;
-        content: "\2022"; ;
-        color:#d9bd3f;
-        font-size:60px;
-       margin-top:-18px;
-        position: absolute;
-    
-        
-    }
-    .bullet-home::before{
-        content: "\2022"; ;
-        color:#d9bd3f;
-        font-size:33px;
-       margin-top:-13px;
-       left: 160px;
-        position: absolute;
-
-
-    }
     .btn-send{
         background-color: #d9bd3f;
         border: none;
@@ -494,6 +517,12 @@ font-size: 16px;
     
 
     }
+    .news-image{
+        display: flex;
+        gap: 17px;
+        margin-left: none;
+    }
+
     
     .footer-form{
         margin-top: 2em;
@@ -535,9 +564,6 @@ font-size: 16px;
     @media (min-width:1024px) {
      .body-image{
             background-image: url("./images/hero-bg.png");
-          /* background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover; */
           background-color:unset;
           position:absolute;
           margin-top:-80px;
@@ -554,10 +580,18 @@ font-size: 16px;
         display: flex;
         align-items: flex-end;
         justify-content:flex-end; 
-        /* grid-gap: 25px; */
     
         
     }
+    
+        .header-color{
+            color: aliceblue;
+            display: grid;
+            font-size: large;
+            
+        }
+    
+    
     .hero-left{
         margin-top:48%;
         margin-left:-1%}
@@ -578,6 +612,7 @@ font-size: 16px;
         .footer-line{
        
             display:flex;
+            grid-gap: 2em;
             width: 94%;
             padding-top: 90px;
         
@@ -586,7 +621,6 @@ font-size: 16px;
             width: 100%;
             height: 100%;
             display:grid;
-            padding: 2em;
             /* border-radius: 4px; */
             grid-gap: 13px;
         
@@ -680,7 +714,7 @@ font-size: 16px;
                 height: 40px;
                 width: 39px;
                 border-radius: 50%;
-                margin: 3px;
+                margin: 5px;
                 display:flex;
                 justify-content: center;
                 align-items: center;
@@ -694,15 +728,6 @@ font-size: 16px;
             
                 
                 }
-            
-                /* .arrow-bottom{
-                    display:flex;
-                    margin-top:35px;
-                }
-                .arrow-top{
-                    display: flex;
-                    margin-top: 10px;
-                } */
                 .nav-head{
                     display: contents;
                     justify-content: center;
@@ -716,7 +741,7 @@ font-size: 16px;
                     width: 570px;
                     position:absolute;
                     right: 2vw;
-                    bottom: 81px;
+                    bottom: 79px;
                     }
                     .image-content{
                         display: grid;
@@ -766,16 +791,6 @@ font-size: 16px;
                    
                         }
                    
-                        .bullet-home::before{
-                            content: "\2022"; ;
-                            color:#d9bd3f;
-                            font-size:33px;
-                           margin-top:-13px;
-                           left: 396px;
-                            position: absolute;
-                    
-                    
-                        }
                         .content-right{
                             display: grid;
                             padding: 1em;
