@@ -26,7 +26,7 @@ html,body{
   }
   a:link {
     text-decoration: none;
-    color:grey;
+    color:#707fa3;
     
   }
   a:visited {
@@ -167,6 +167,7 @@ margin-left: -15px;
 }
 .btn-color{
     background-color:white;
+    margin-left:8px;
 
 }
 .line-gap{
@@ -292,6 +293,11 @@ font-size: 16px;
     
         
     }
+    .object-header{
+        margin-top: 40px;
+        margin: 70px;
+    }
+
             
     .header-title{
         display:grid;
@@ -329,7 +335,17 @@ font-size: 16px;
         padding: 1em;
         box-shadow: 10px 10px 51px -8px rgba(0,0,0,0.23);
         -webkit-box-shadow: 10px 10px 51px -8px rgba(0,0,0,0.23);
-        -moz-box-shadow: 10px 10px 51px -8px rgba(0,0,0,0.23);    }
+        -moz-box-shadow: 10px 10px 51px -8px rgba(0,0,0,0.23);  
+     }
+     .box-line h5{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 0.9px;
+    
+     }
+     .box-line p{
+        font-family:Verdana, Geneva, Tahoma, sans-serif; 
+
+     }
 
     .image-right{
         
@@ -385,6 +401,7 @@ font-size: 16px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: -26px;
         }
     
     #card-3{
@@ -401,10 +418,6 @@ font-size: 16px;
     }
 
 
-    .object-header{
-        margin-top: 40px;
-        margin: 70px;
-    }
     .angle-box{
         display: flex;
         justify-content: flex-end;
@@ -444,7 +457,6 @@ font-size: 16px;
         color: aliceblue;
         display: grid;
         font-size: large;
-        /* place-content: center; */
     }
 
    
@@ -452,10 +464,11 @@ font-size: 16px;
     
     .style-none{
         list-style: none;
-        color:grey;
+        color:#707fa3;
     }
     .call-none{
-        color:grey;
+        color:#707fa3;
+        margin-left:6px ;
 
 
     }
@@ -468,7 +481,7 @@ font-size: 16px;
     
     }
     .header-right{
-        color: aliceblue;
+        color: white;
         font-size: large;
         display: grid;
         justify-content: center;
@@ -476,14 +489,12 @@ font-size: 16px;
     
     }
     .header-left{
-        /* display: grid;
-        justify-content:center;
-        align-items: left;
-        place-content: center; */
         font-size: 25px;
         font-size:25px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+        display: grid;
+        justify-content: center;
+
     }
     
 
@@ -505,7 +516,7 @@ font-size: 16px;
     }
     
     .para-color{
-        color:grey;
+        color:#707fa3;
     }
     .btn-send{
         background-color: #d9bd3f;
@@ -584,12 +595,6 @@ font-size: 16px;
         
     }
     
-        .header-color{
-            color: aliceblue;
-            display: grid;
-            font-size: large;
-            
-        }
     
     
     .hero-left{
@@ -598,7 +603,7 @@ font-size: 16px;
     
     
     .hero-img{
-        width: 567px;
+        width: 600px;
     
     }
     
@@ -675,6 +680,11 @@ font-size: 16px;
             margin-left: -40px;
 
         }
+        .object-header{
+            margin-top: 40px;
+            margin: 70px;
+        }
+    
         .para-gap{
             margin-left: 35px;
             font-family: 'Roboto', sans-serif;
@@ -781,14 +791,13 @@ font-size: 16px;
                     
                         .footer-image{
                             background: url("./images/footer-bg.png");           
-                            background-repeat: no-repeat;
-                            background-size: cover;
                             position: absolute;
                        height: auto;
-                       width: 100vw;
+                       width: 100%;
                        padding-top: 394px;
                        padding-bottom: 60px;
-                   
+                       border-top-right-radius: 260em 24em;
+
                         }
                    
                         .content-right{
@@ -798,6 +807,15 @@ font-size: 16px;
                             margin-top: 593px;
                         
                         }
+                        .call-none{
+                            color:#707fa3;
+                        
+                    
+                    
+                        }
+                        
+                    
+                    
                         
                     
                     
