@@ -38,7 +38,7 @@ html,body{
  a:active{
     color:rgb(134, 22, 22);
  }
-   a:visited {
+  .nav-head a:visited {
     color:white;
   }
 
