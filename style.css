@@ -32,14 +32,10 @@ html,body{
     color: #707fa3;
   }
 
-  .style-none a {
+  .style-none a:visited {
     
     color: #707fa3;  
     }
- .style-none a:visited {
-    
-color: #707fa3;  
-}
   
   .nav-head a:visited {
     color:white;
