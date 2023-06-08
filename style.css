@@ -31,6 +31,11 @@ html,body{
   .call-none a:visited{
     color: #707fa3;
   }
+
+  .style-none a {
+    
+    color: #707fa3;  
+    }
  .style-none a:visited {
     
 color: #707fa3;  
