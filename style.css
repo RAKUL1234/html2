@@ -28,14 +28,14 @@ html,body{
     text-decoration: none;
     
   }
+  .call-none a:visited{
+    color: #707fa3;
+  }
  .style-none a:visited {
     
-    color:#707fa3;
-  }
+color: #707fa3;  
+}
   
- a:active{
-    color:rgb(134, 22, 22);
- }
   .nav-head a:visited {
     color:white;
   }
