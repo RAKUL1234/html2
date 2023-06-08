@@ -32,6 +32,9 @@ html,body{
     
     color:#707fa3;
   }
+  .call-none a:visited{
+    color:#707fa3;
+  }
  a:active{
     color:rgb(134, 22, 22);
  }
