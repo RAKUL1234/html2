@@ -651,7 +651,7 @@ font-size: 16px;
             width: 78vw;
             height: 693px !important;
             display: flex;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr ;
             gap: 0 !important;
         
         
