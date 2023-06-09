@@ -216,15 +216,16 @@ font-size: 16px;
 
 .content-right{
     display: grid;
-    padding: 3em;
+    padding: 75px;
     justify-content: center;
+    margin-left: 35px;
 
 }
 .hero-img{
-    width: 354px;
+    width: 90%;
     height:100%;
-    padding: 20px;
-    margin-left:32px;
+    padding: 17px;
+    margin-left:29px;
 
 }
 .main-content h1{
@@ -523,10 +524,10 @@ font-size: 16px;
         height: 100%;
 
     }
-    .network-images{
+    .link-images{
         display: flex;
         gap: 18px;
-        margin-top: -5px;
+        justify-content: center;
 
     }
     
@@ -587,6 +588,17 @@ font-size: 16px;
     border-radius: 4px;
     background-color: #d9bd3f;
 }
+
+
+
+
+
+
+
+
+
+
+
     @media (min-width:1024px) {
      .body-image{
             background-image: url("./images/hero-bg.png");
@@ -672,6 +684,13 @@ font-size: 16px;
             
         
         }
+        .network-images{
+            display: flex;
+            gap: 18px;
+            margin-top: -5px;
+    
+        }
+    
     
      
         
@@ -863,12 +882,47 @@ font-size: 16px;
                         }
                     
                     
-                        
-                        
-                    
-                    
-                        
-                    
-                    
-                
+                                    
                             } 
+
+
+
+
+
+
+@media (min-width:767px) and (max-width:1023px){
+                                
+    .image-right{
+        
+        width: 83%;
+        margin-left: 64px;
+        
+    
+    }
+    .hero-img{
+        width: 590px;
+        height:100%;
+        padding: 20px;
+        margin-left:142px;
+    
+    }
+    .card-shape{
+        padding: 2em;
+        border-radius: 25px;
+        text-align: center;
+    
+        
+    
+    }
+    #card-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+    
+                                
+                            }
