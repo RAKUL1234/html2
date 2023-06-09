@@ -578,7 +578,7 @@ font-size: 16px;
     border-radius: 0;
     width:285px;
     background-color: unset;
-    border:1px solid white;
+    border:1px solid rgb(164, 162, 162);
     
 }
 .subs-btn{
@@ -828,7 +828,6 @@ font-size: 16px;
                             background-repeat: no-repeat;
                          width: 100%;
                        height: auto;
-                       padding-top: 394px;
                        padding-bottom: 60px;
                        border-top-right-radius: 260em 24em;
                        margin-top: -121px;
@@ -857,6 +856,12 @@ font-size: 16px;
                             margin-right:106px;
                         
                         }
+                        .footer{
+                            display: grid;
+                            place-items: center;
+                            margin-top: 400px;
+                        }
+                    
                     
                         
                         
