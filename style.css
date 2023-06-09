@@ -64,7 +64,7 @@ top: 100px;
     display: flex;
 align-items:center;
 justify-content: space-between;
-padding: 0px 70px;
+padding: 7px 70px;
     }
 .nav-header ul li{
     
@@ -89,7 +89,7 @@ display: inline-block;
     justify-content:space-between;
     align-items:center;
     font-size: large;
-    margin-left:102px;
+    margin-left:78px;
 
     
 }
@@ -99,8 +99,8 @@ display: inline-block;
 
 }
 #size-bar{
-    width:70px ;
-    height: 30px;
+    width:69px ;
+    height: 27px;
     background-color: #d9bd3f;
     color: aliceblue;
     display: flex;
@@ -294,7 +294,11 @@ font-size: 16px;
     
         
     }
-    
+    .arrow-center{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
 
     .header-title{
         display:grid;
@@ -712,7 +716,7 @@ font-size: 16px;
       
     
         .para-gap{
-            margin-left: 35px;
+            margin-left: 37px;
             font-family: 'Roboto', sans-serif;
             
             }
