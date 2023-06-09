@@ -677,6 +677,7 @@ font-size: 16px;
             display: flex;
             grid-template-columns: 1fr 1fr 1fr ;
             gap: 0 !important;
+            margin-top: 21px;
         
         
         }
@@ -714,6 +715,11 @@ font-size: 16px;
         .form-header{
             grid-template-columns: 1fr 1fr;
         }
+        .search-bar{
+            width: 20px;
+            height: auto;
+        }
+        
         
         .main-content{
             display: flex;
